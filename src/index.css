@@ -18,7 +18,19 @@ body {
   background: linear-gradient(#487eb0,#0097e6,#00a8ff);
   color: #dfe6e9;
   padding: 1em;
+  margin: o;
 }
+ .title{
+   margin-left: 1em;
+ } 
+ .author{
+   margin-left: auto;
+  }
+  
+
+  
+
+
 
 
 
