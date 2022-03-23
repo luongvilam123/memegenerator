@@ -5,27 +5,46 @@
 body {
   margin: 0;
   font-family: "Karla", sans-serif;
-  padding: 0;
-  width: 100%;
-  height: auto;
   font-size: 14px;
 }
   
 .Header{
   display: flex;
   align-items: center;
+  flex-direction: row;
   height: fit-content;
   background: linear-gradient(#487eb0,#0097e6,#00a8ff);
   color: #dfe6e9;
   padding: 1em;
-  margin: o;
+  margin: 0;
 }
  .title{
    margin-left: 1em;
  } 
  .author{
-   margin-left: auto;
-  }
+  margin-left: auto;
+ }
+
+ .form{
+   display: grid;
+   grid-template: 2em 2em / 1fr 1fr;
+    /* Prevent inheritance from parent in this case is body tag all: initial; */
+   gap: 1em;
+   padding: 1em;
+ }
+ .form-button{
+   grid-column: 1 / -1;
+   font-family: "Karla", sans-serif;
+   background-color:#0097e6;
+   color:white;
+ }
+ .form-input{
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #0097e6;
+  text-indent: 1em; /* tạo khoảng cách giữ placeholder với chỗ gõ input */
+
+ }
   
 
   
