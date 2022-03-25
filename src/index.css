@@ -46,6 +46,13 @@ body {
   text-indent: 1em; /* tạo khoảng cách giữ placeholder với chỗ gõ input */
 
  }
+ .memeImg{
+   width: fit-content;
+   max-width: 80%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
   
 
   

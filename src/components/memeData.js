@@ -54,7 +54,7 @@ export default {
           {
              "id":"247375501",
              "name":"Buff Doge vs. Cheems",
-             "url":"https:\/\/i.imgflip.com\/43a45p.png",
+             "url":"https://i.imgflip.com/43a45p.png",
              "width":937,
              "height":720,
              "box_count":4
@@ -62,7 +62,7 @@ export default {
           {
              "id":"129242436",
              "name":"Change My Mind",
-             "url":"https:\/\/i.imgflip.com\/24y43o.jpg",
+             "url":"https://i.imgflip.com/24y43o.jpg",
              "width":482,
              "height":361,
              "box_count":2
