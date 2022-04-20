@@ -20,6 +20,7 @@ body {
 }
  .title{
    margin-left: 1em;
+   
  } 
  .author{
   margin-left: auto;
@@ -46,6 +47,9 @@ body {
   text-indent: 1em; /* tạo khoảng cách giữ placeholder với chỗ gõ input */
 
  }
+ .meme {
+  position: relative;
+}
  .memeImg{
    width: fit-content;
    max-width: 80%;
@@ -53,6 +57,38 @@ body {
    margin-left: auto;
    margin-right: auto;
  }
+ .meme--text{
+   position: absolute;
+   width: 100;
+   left:50%;
+   transform: translateX(-50%);
+   margin: 15px 0;
+   padding: 0 5px;
+   font-family: impact, sans-serif;
+   font-size: 2em;
+   text-transform: uppercase;
+   color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+
+   
+ }
+ .bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
   
 
   
